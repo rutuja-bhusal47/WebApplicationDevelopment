@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard UI</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="d-flex">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h4 class="logo">Dashboard</h4>
+
+    <ul class="menu">
+      <li><i class="fa fa-home"></i> Home</li>
+      <li><i class="fa fa-calendar"></i> Calendar</li>
+      <li><i class="fa fa-chart-pie"></i> Reports</li>
+      <li class="active"><i class="fa fa-th"></i> Dashboard</li>
+      <li><i class="fa fa-users"></i> Contacts</li>
+    </ul>
+
+    <button class="btn add-btn">+ Add new entry</button>
+  </div>
+
+  <!-- Main -->
+  <div class="main-content">
+
+    <!-- Top Bar -->
+    <div class="topbar">
+      <span>☰ Hide Menu</span>
+      <div class="profile">Marcus White</div>
+    </div>
+
+    <!-- Cards -->
+    <div class="row g-3 mt-2">
+
+      <div class="col-md-3">
+        <div class="card-box">
+          <h3>3450</h3>
+          <p>Number of Sales</p>
+          <span class="up">↑ 25%</span>
+          <div class="icon yellow"><i class="fa fa-chart-line"></i></div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card-box">
+          <h3>35.256</h3>
+          <p>Sales Revenue</p>
+          <span class="up">↑ 15%</span>
+          <div class="icon cyan"><i class="fa fa-chart-bar"></i></div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card-box">
+          <h3>35.256</h3>
+          <p>Average Price</p>
+          <span class="down">↓ 15%</span>
+          <div class="icon green"><i class="fa fa-dollar-sign"></i></div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card-box">
+          <h3>15.893</h3>
+          <p>Operations</p>
+          <div class="mini-chart"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Middle Section -->
+    <div class="row mt-4">
+
+      <div class="col-md-8">
+        <div class="card-box">
+          <h5>Market Overview</h5>
+          <div class="big-chart"></div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card-box">
+          <h6>Today 22nd Jan, 2021</h6>
+
+          <div class="activity up">⬆ Incoming Transfer</div>
+          <div class="activity down">⬇ Sales Report</div>
+          <div class="activity up">⬆ Incoming Transfer</div>
+          <div class="activity down">⬇ Incoming Transfer</div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div class="row mt-4">
+
+      <div class="col-md-6">
+        <div class="card-box center">
+          <h5>Sales Overview</h5>
+          <div class="circle">71%</div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card-box">
+          <h5>Sales Analytics</h5>
+          <div class="line-chart"></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
